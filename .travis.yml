@@ -4,6 +4,8 @@ python: 3.8
 
 branches: main
 
+before_install:
+  - python3 -m pip install --upgrade pip
 install:
   - pip3 install mkdocs
 
