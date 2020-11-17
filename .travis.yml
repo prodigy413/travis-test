@@ -20,3 +20,5 @@ deploy:
   local_dir: site
   on:
     branch: main
+  repo: prodigy413/prodigy413.github.io
+  target_branch: main
