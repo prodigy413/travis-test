@@ -1,0 +1,15 @@
+language: python
+
+python:
+  - "3.8"
+
+install:
+  - pip install mkdocs
+
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  keep_history: true
+  on:
+    branch: main
