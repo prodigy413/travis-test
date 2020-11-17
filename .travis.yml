@@ -2,17 +2,21 @@ language: python
 
 python: 3.8
 
-#branches: main
+branches: main
 
-#install:
-#  - pip3 install mkdocs
+install:
+  - pip3 install mkdocs
 
 script: true
+
+before_deploy:
+  - mkdocs build --verbose --clean
 
 deploy:
   provider: pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN
   keep_history: true
+  local_dir: site
   on:
     branch: main
