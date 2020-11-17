@@ -4,8 +4,8 @@ python: 3.8
 
 #branches: main
 
-install:
-  - pip3 install mkdocs
+#install:
+#  - pip3 install mkdocs
 
 script: true
 
