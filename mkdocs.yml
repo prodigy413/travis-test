@@ -1,0 +1,6 @@
+site_name: Travis Test
+docs_dir: docs
+nav:
+  - Top: index.md
+  - Home: home.md
+  - About: about.md
