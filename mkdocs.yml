@@ -1,5 +1,6 @@
 site_name: Travis Test
-docs_dir: docs
+docs_dir: 'docs'
+theme: 'windmill'
 nav:
   - Top: index.md
   - Home: home.md
