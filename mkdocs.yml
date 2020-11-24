@@ -1,7 +1,17 @@
 site_name: Travis Test
 docs_dir: 'docs'
-theme: 'windmill'
+theme:
+  name: 'material'
+  logo: images/pages_logo.png
+  favicon: images/pages_logo.png
+  palette:
+    primary: grey
+extra_css:
+  - 'css/custom.css'
 nav:
   - Top: index.md
-  - Home: home.md
-  - About: about.md
+  - Home:
+    - Tel: home.md
+    - Istio: istio/istio.md
+  - About:
+    - about.md
